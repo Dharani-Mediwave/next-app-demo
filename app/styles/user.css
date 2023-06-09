@@ -1,0 +1,18 @@
+.user-item-blk {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.user-sub-blk {
+  display: grid;
+  grid-template-columns: 100px auto;
+  border: 1px solid #cdcdcd;
+  border-radius: 10px;
+  padding: 1rem;
+  row-gap: 20px;
+}
+
+.user-img-blk img {
+  object-fit: contain;
+}
